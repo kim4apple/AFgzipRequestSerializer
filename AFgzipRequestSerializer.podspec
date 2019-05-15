@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/AFNetworking/AFgzipRequestSerializer.git",
                      :tag => "0.0.2" }
 
-  s.source_files = 'AFgzipRequestSerializer'
+  s.source_files = 'AFgzipRequestSerializer/*.{h,m}'
   s.requires_arc = true
 
   s.dependency 'AFNetworking', '~> 3.2.1'
