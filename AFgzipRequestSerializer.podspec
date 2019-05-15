@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency 'AFNetworking', '~> 3.2.1'
-  s.dependency 'Godzippa', '~> 1.0'
+  s.dependency 'Godzippa', '~> 2.1.0'
 end
